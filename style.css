@@ -1,0 +1,376 @@
+/* -------------------- DEFAULTS --------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------- COLORS -------------------- */
+:root {
+    --color-5: #53304e;
+    --color-4: #7b3e5c;
+    --color-3: #b25b73;
+    --color-2: #f38392;
+    --color-1: #f6b7a2;
+}
+
+/* -------------------- DEFAULTS -------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Dancing Script', cursive;
+}
+
+section {
+    background-color: #fff;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+
+#about {
+    background-color: var(--color-5);
+    color: #fff;
+}
+
+#quote {
+    background-color: var(--color-1);
+}
+
+#videos {
+    background-color: var(--color-2);
+}
+
+#start {
+    background-color: var(--color-1);
+}
+
+#tool {
+    background-color: var(--color-5);
+    color: #fff;
+}
+
+#work {
+    background-color: var(--color-5);
+    color: #fff;
+}
+
+#order{
+    background-color: var(--color-1);
+}
+
+#guide {
+    background-color: var(--color-2);
+}
+
+.purple-font {
+    color: var(--color-4);
+}
+
+/* -------------------- NAVBAR -------------------- */
+.nav-logo {
+    width: 100px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    /* color: var(--color-3); */
+}
+
+.menu-bg {
+    background-color: var(--color-3) !important;
+}
+
+.navbar-custom {
+    position: absolute;
+}
+
+/* -------------------- HOME BANNER SECTION -------------------- */
+.col-left {
+    background-image: url(images/signword\ \(2\).png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.col-right {
+    background-color: var(--color-5);
+    height: 80vh;
+}
+
+.home-title {
+    font-size: 8rem;
+    color: #fff;
+    padding-top: 15rem;
+}
+
+.home-subtitle {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.pink-btn {
+    background-color: var(--color-3);
+    border: 2px solid var(--color-3)
+}
+
+.pink-btn:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: var(--color-3);
+}
+
+/* -------------------- ASL PICTURE SECTION -------------------- */
+.parent {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.asl-img-bg {
+    background-color: var(--color-1);
+    position: relative;
+    top: 0;
+    right: 0;
+    min-height: 344px;
+}
+
+.asl-img {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: var(--color-4);
+}
+
+/* -------------------- ABOUT SECTION -------------------- */
+.about-hd {
+    font-size: 2.75rem;
+}
+
+.about-text {
+    font-size: 1.1rem;
+}
+
+.about-img {
+    width: 80%;
+}
+
+/* -------------------- QUOTE SECTION -------------------- */
+.quote-font {
+    font-size: 3rem;
+}
+
+/* -------------------- RESUME SECTION -------------------- */
+.resume-hd {
+    font-size: 2.75rem;
+}
+
+.res-img {
+    width: 100%;
+}
+
+.res-card {
+    transition: all .3s ease-in-out;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12) !important;
+}
+
+.res-card:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.02);
+}
+
+.pink-res-btn {
+    background-color: var(--color-3);
+    border: 2px solid var(--color-3)
+}
+
+.pink-res-btn:hover {
+    background-color: #fff;
+    border: 2px solid var(--color-3);
+    color: var(--color-3);
+}
+
+/* -------------------- VIDEOS SECTION -------------------- */
+.videos-hd {
+    font-size: 2.75rem;
+}
+
+.vp-sidedock {
+    display: none !important;
+}
+
+/* -------------------- CONTACT SECTION -------------------- */
+.contact-hd {
+    font-size: 2.75rem;
+}
+
+.contact {
+    background-color: var(--color-1);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+input.form-control,
+textarea.form-control {
+    background-color: var(--color-1);
+    border: none;
+    border-bottom: 1px solid var(--color-5);
+}
+
+textarea.form-control:focus,
+input.form-control:focus {
+    box-shadow: none;
+    background-color: var(--color-1);
+    border: none;
+    border-bottom: 1px solid var(--color-5);
+}
+
+.contact-btn {
+    background-color: var(--color-5);
+    border: none;
+}
+
+.contact-btn:hover {
+    background-color: var(--color-4);
+}
+
+.contact-btn:focus,
+.contact-btn:active {
+    background-color: var(--color-5);
+}
+
+/* -------------------- FOOTER SECTION -------------------- */
+.footer {
+    background-color: var(--color-5);
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
+/* XXL */
+@media screen and (max-width:1400px) {}
+
+/* XL */
+@media screen and (max-width:1199px) {
+    .home-title {
+        font-size: 5rem;
+    }
+
+    .asl-img-bg {
+        min-height: 214px;
+    }
+
+    .asl-img {
+        width: 105%;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+/* LG */
+@media screen and (max-width:992px) {
+    section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .col-left {
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .asl-img-bg {
+        min-height: 150px;
+    }
+
+    .asl-img {
+        width: 105%;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}
+
+/* MD */
+@media screen and (max-width:767px) {
+    section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .asl-col {
+        height: 60vh;
+    }
+
+    .asl-img-bg {
+        min-height: 450px;
+    }
+}
+
+@media screen and (max-width: 677px) {
+    .home-title {
+        font-size: 4rem;
+    }
+
+    .home-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+    }
+}
+
+/* SM */
+@media screen and (max-width:576px) {
+    section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .asl-col {
+        height: 60vh;
+    }
+
+    .asl-img-bg {
+        min-height: 450px;
+    }
+    
+    .footer-text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .offcanvas {
+        --bs-offcanvas-width: 300px !important;
+    }
+}
+
+/* XS - ASL SECTION SPECIFICALLY */
+@media screen and (max-width: 415px) {    
+    .asl-col {
+        height: 60vh;
+    }
+
+    .asl-img-bg {
+        min-height: 350px;
+    }
+
+    .asl-img {
+        width: 100%;
+        position: absolute;
+    }
+}
